@@ -18,6 +18,7 @@
 
 body {
     width: 100%;
+    overflow-x: hidden;
 } 
 
 #main {
@@ -48,6 +49,7 @@ body {
     border-radius: 28px;
     width: 140px;
     height: 48px;
+    z-index: 1;
 }
 
 .first-box:hover  {
@@ -237,11 +239,6 @@ body {
         margin-left: 39px; 
     }
 
-    .first-box {
-        margin-top: 24px;
-        margin-right: 40px;
-    }
-
     .heading1 {
         margin-top: 99px;
         margin-left: 39px;
@@ -299,7 +296,8 @@ body {
     }
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1400px){
+    
     .top-text {
         margin-left: 166px;
         margin-top: 46px;
