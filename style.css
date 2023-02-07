@@ -50,7 +50,7 @@ body {
     height: 48px;
 }
 
-.first-box:hover {
+.first-box:hover  {
     background-color: #666CA3;
     cursor: pointer;
 }
@@ -140,7 +140,6 @@ body {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    background-color: red;
     padding: 16px;
 }
 
@@ -297,5 +296,71 @@ body {
     .courses-box {
         margin-top: 55px;
         margin-right: 10px;
+    }
+}
+
+@media (min-width: 1440px){
+    .top-text {
+        margin-left: 166px;
+        margin-top: 46px;
+    }
+
+    .first-box {
+        margin-right: 165px;
+        margin-top: 24px;
+    }
+
+    .main-image-mobile {
+        display: none;
+    }
+
+    .main-image-tablet {
+        display: none; 
+    } 
+
+    .main-image-desktop {
+        width: 70%;
+        position: absolute;
+        display: block;
+        top: -10%;
+        left: 50%;
+    }
+
+    .heading1 {
+        margin-left: 165px;
+        margin-top: 186px;
+    }
+
+    .description {
+        margin-left: 165px;
+        margin-top: 29px;
+    }
+
+    .starting-box2 {
+        margin-left: 165px;
+        margin-top: 40px;
+    }
+
+    .card {
+        margin-left: 30px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        width: 1400px;
+    }
+
+    .last-box {
+        margin-right: 166px;
+    }
+
+    .bottom-text {
+        margin-left: 166px;
+    }
+
+    .courses-box {
+        margin-top: 55px;
+        margin-left: 17px;
     }
 }
